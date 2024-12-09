@@ -32,6 +32,13 @@ These tasks can be configured to evaluate various models in the respective noteb
 We continually pretrained Pythia-1.4B and Phi-1.5 on BeanCounter and the resulting models are in this directory. 
 
 ## Citing this work
-'''text
-
-'''
+```text
+@inproceedings{
+wang2024beancounter,
+title={BeanCounter: A low-toxicity, large-scale, and open dataset of business-oriented text},
+author={Siyan Wang and Bradford Levy},
+booktitle={The Thirty-eight Conference on Neural Information Processing Systems Datasets and Benchmarks Track},
+year={2024},
+url={https://openreview.net/forum?id=HV5JhUZGpP}
+}
+```
