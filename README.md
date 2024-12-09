@@ -1,6 +1,6 @@
 # BeanCounter: A low-toxicity, large-scale, and open dataset of business-oriented text
-<dic align="center">
-[**Data**]()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Paper**]()
+<div align="center">
+[**Data**](https://huggingface.co/datasets/bradfordlevy/BeanCounter)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Paper**](https://arxiv.org/abs/2409.17827)
 </div>
 
 ## What is BeanCounter?
@@ -20,16 +20,20 @@ All programs responsible for producing analysis for demographic prevalence and t
 
 ## Model evaluation
 Each task used for model evaluation is included as a separate notebook:
-- Fin NER
-- Financial Phrasebank
-- RealToxicityPrompts
-- SafeNLP
-- Huggingface leaderboard (general LLM evaluations)
+* Fin NER
+* Financial Phrasebank
+* RealToxicityPrompts
+* SafeNLP
+* Huggingface leaderboard (general LLM evaluations)
 
 These tasks can be configured to evaluate various models in the respective notebooks. 
 
 ## Continually pretrained models
 We continually pretrained Pythia-1.4B and Phi-1.5 on BeanCounter and the resulting models are in this directory. 
+
+## Opening issues
+* [Issues](https://github.com/bradfordlynch/beancounter/issues): Submit questions or report bugs related to this repository or BeanCounter dataset
+
 
 ## Citing this work
 ```text
