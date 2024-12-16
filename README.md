@@ -27,7 +27,7 @@ Each task used for model evaluation is included as a separate notebook:
 These tasks can be configured to evaluate various models in the respective notebooks. 
 
 ## Continually pretrained models
-We continually pretrained Pythia-1.4B and Phi-1.5 on BeanCounter and the resulting models are in this directory. 
+We continually pretrained Pythia-1.4B and Phi-1.5 on BeanCounter. The resulting models are hosted on [🤗 Hub](https://huggingface.co/collections/bradfordlevy/beancounter-6756f8a3efb55010611a6fda).
 
 ## Opening issues
 * [Issues](https://github.com/bradfordlynch/beancounter/issues): Submit questions or report bugs related to this repository or BeanCounter dataset
